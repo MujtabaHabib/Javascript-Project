@@ -14,7 +14,6 @@ These projects focus on strengthening core JavaScript concepts, DOM manipulation
 | Popup Modal | Custom popup/modal using JavaScript |
 | To-Do List | Simple task manager with add and delete functionality |
 | Calculator | Basic calculator using JavaScript operators |
-| Stopwatch | Stopwatch with start, stop, and reset functionality |
 
 ---
 
