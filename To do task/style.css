@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 225, 239);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex; 
+    
+}
+.container {
+    background-color: white;
+    min-height: 300px;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    /* border: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
+.todo-app{
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+}
+
+.todo-app h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color:rgb(22,100,120)
+}
+
+#Addtaskbtn{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 213, 246, 0.122);
+    border-radius: 2px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#Addtaskbtn:hover{
+    background-color: rgba(27, 140, 232, 0.664);
+    color: white;
+}
+#Addtask{
+    padding:10px;
+    border-radius: 5px;
+    color:black;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.buttons{
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.buttons button{
+    color: black;
+    background-color: rgb(240, 236, 236);
+    border-radius:4px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.all:hover{
+    color:white;
+    background-color: rgb(4, 255, 58);
+}
+
+.completed:hover{
+    color:white;
+    background-color: rgb(0, 254, 55);
+}
+
+.pending:hover{
+    background-color: orange;
+    color: white;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: gray;
+}
